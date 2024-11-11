@@ -29,7 +29,7 @@ def read_rosbag(bag_path):
 
 if __name__ == "__main__":
     # 设置bag文件路径
-    my_path = "your_bag_file.bag"  # 替换为实际的bag文件路径
+    my_path = "/home/kangluo/bag/1_2024-10-24-15-02-04.bag"  # 替换为实际的bag文件路径
     
     # 检查文件是否存在
     if os.path.exists(my_path):
